@@ -173,10 +173,6 @@ py Source/Tools/make_share.py --zip
 
 `Share/PC/GearheadGarage/` is the exe with the game's `Data` beside it, a README, the licences and a manifest with sizes and SHA-256; `--zip` adds `Share/PC/GearheadGarage-PC.zip`. Each build's exe and PDB are kept in `symbols/<GUID+age>/`, and the Android libraries in `symbols/android/<version>/`.
 
-### The website
-
-`GGWebs/` is ghg.teamvanilla.dev: static pages built by `py GGWebs/tools/build.py`. See [`GGWebs/README.md`](GGWebs/README.md).
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:3F2B16,50:E4C694,100:3F2B16&height=3"/>
 
 ## 💻 Command Line
